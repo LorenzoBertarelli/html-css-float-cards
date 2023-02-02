@@ -24,7 +24,7 @@ h1 {
     margin-bottom: 3rem;
 }
 
-.sottotitolo{
+.sottotitolo {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -39,11 +39,33 @@ h1 {
 .box {
     width: calc((100% / 3) - (2rem / 3));
     float: left;
-    background-color: blue;
+    background-color: rgba(15, 14, 23, 1);
+    color: white;
     margin-bottom: 1rem;
 }
 
-.box.middle{
+.box.middle {
     margin: 0 1rem;
 }
+
+img {
+    max-width: 40%;    
+}
+
+.informazioni {
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    max-width: 60%;
+}
+
+.lavoro {
+    margin-top: 10px;
+}
+
+.email {
+    margin-top: 10px;
+    color: rgba(110, 203, 242, 1);
+}
+
 
